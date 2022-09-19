@@ -28,3 +28,7 @@ services:
       - WORDPRESS_DB_NAME=wordpress
 volumes:
   db_data:
+
+## Build Project
+# docker compose up -d
+## Access http://localhost:80 on the browser
